@@ -1,0 +1,43 @@
+html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.division {
+	height: 1500px;
+	background-color: lightblue;
+}
+@media (max-width: 1500px){
+	.division {
+		background-color: blue;
+	}
+}
+
+@media (max-width: 750px){
+	.division {
+		background-color: green;
+	}
+}
+
+@media (max-width: 500px){
+	.division {
+		background-color: red;
+	}
+}
+
+@media (max-width: 300px){
+	.division {
+		background-color: violet;
+	}
+}
+
+@media (orientation: landscape){
+	.division {
+		background-color: black;
+	}
+}
